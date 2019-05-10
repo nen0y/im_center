@@ -85,5 +85,19 @@
                 }
             }
         }
+        .slick-prev{
+            position: relative;
+            &:before{
+                display: block;
+                content: '';
+                width: 24px;
+                height: 24px;
+                background-image: url(/assets/img/content/left@3x.png);
+                background-size: cover;
+                position: absolute;
+                top: 500px;
+                left: 20px;
+            }
+        }
     }
 }
