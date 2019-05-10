@@ -1,0 +1,31 @@
+@media (max-width: 1200px){
+    .howitwork_block{
+        background-position: center;
+        
+        .title{
+            margin-left: -50px;
+        }
+        .slider{
+            max-width: 991px;
+            width: 100%;
+            .slick-dots{
+                max-width: 1200px;
+                width: 100%;
+                &:before{
+                    max-width: 800px;
+                    width: 100%;
+                    
+                }
+                li{
+                    
+                }
+            }
+            .slider-item{
+                p{
+                    width: 100%;
+                    min-width: 1200px;
+                }
+            }
+        }
+    }
+}
