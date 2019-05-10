@@ -22,24 +22,82 @@
             
         }
         .slick-dots{
-            bottom: 384px;
+            bottom: 475px;
             text-align: left;
             display: flex;
             flex-direction: row;
             width: 100%;
             max-width: 640px;
+            position: relative;
+            &:before{
+                content: '';
+                width: 500px;
+                height: 2px;
+                background-color: #c2c5cb;
+                position: absolute;
+                top: 50px;
+                left: 60px;
+            }
+            li:nth-child(1){
+                &:before{
+                    content: '1';
+                    position: absolute;
+                    top: 17px;
+                    font-size: 48px;
+                    color: #fff;
+                    left: 43px;
+                }
+            }
+            li:nth-child(2){
+                &:before{
+                    content: '2';
+                    position: absolute;
+                    top: 17px;
+                    font-size: 48px;
+                    color: #fff;
+                    left: 37px;
+                }    
+            }
+            li:nth-child(3){
+                margin-right: 0px;
+                position: relative;
+                &:before{
+                    content: '3';
+                    position: absolute;
+                    top: 17px;
+                    font-size: 48px;
+                    color: #fff;
+                    left: 37px;
+                }
+            }
             li{
                 width: 100px;
                 height: 100px;
                 background-color: #c2c5cb;
-                margin-right: 40px;
+                margin-right: 163px;
                 border-radius: 50%;
+                
                 &.slick-active{
                     background-color: #6d727c;
                 }
                 button:before{
                     content: '';
                 }
+            }
+        }
+        .slick-prev{
+            position: relative;
+            &:before{
+                
+                content: '';
+                width: 24px;
+                height: 24px;
+                background-image: url(/assets/img/content/left@3x.png);
+                background-size: cover;
+                position: absolute;
+                top: 500px;
+                left: 10px;
+                
             }
         }
     }
