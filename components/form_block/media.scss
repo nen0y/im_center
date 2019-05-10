@@ -1,0 +1,31 @@
+
+
+@media(max-width: 767px) {
+    .form_block .form .line .inp{
+        width: 100%;
+    }
+    .form_block .form .line{
+        flex-direction: column;
+    }
+    .form_block .form .submit{
+        flex-direction: column;
+        max-width: inherit;
+        label{
+            margin-bottom: 30px;
+            margin-right: 0;
+            p{
+                max-width: inherit;
+            }
+        }
+    }
+    .form_block .form .request .request__space{
+        flex-direction: column;
+        label{
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+    }
+    .form_block .form .download .bt{
+        display: table;
+    }
+}

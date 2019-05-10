@@ -1,0 +1,15 @@
+extends _parent_template
+block head
+    +head(head.home)
+block content
+    +header()
+    .container
+        .bread_crumbs_block
+            a(href="#") Головна
+            a(href="#") Форма звернення
+    include ../components/form_block/index
+
+
+
+
+

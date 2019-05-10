@@ -1,0 +1,144 @@
+.form_block{
+    padding-top: 43px;
+    margin-bottom: 100px;
+    .header{
+        color: #3b4256;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .form{
+        width: 100%;
+        .name{
+            border-radius: 4px;
+            background-color: #f4f7fb;
+            padding: 10px 16px;
+            display: block;
+            margin-bottom: 30px;
+            .sub{
+                color: #848e99;
+                display: block;
+                background-color: transparent;
+            }
+            input{
+                width: 100%;
+                color: #3b4256;
+                font-size: 16px;
+                outline: none;
+                border: 0;
+                background-color:transparent;
+            }
+        }
+        textarea{
+            display: block;
+            width: 100%;
+            color: #3b4256;
+            font-size: 16px;
+            background: transparent;
+            outline: none;
+            height: calc(100% - 60px);
+            border: 0;
+            resize: none;
+        }
+        .__input{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 30px;
+            border-radius: 4px;
+            background-color: #f4f7fb;
+            padding: 0 16px;
+            height: 62px;
+            outline: none;
+            border: 0;
+            transition: all ease 400ms;
+            &.txt{
+                height: 136px;
+            }
+            .inp{
+                border: 0;
+                outline: 0;
+                padding: 0;
+                background: transparent;
+                color: #3b4256;
+                font-size: 16px;
+                max-height: 0;
+                overflow: hidden;
+                width: 100%;
+                transition: all ease 400ms;
+            }
+            &.active{
+                transition: all ease 400ms;
+                .inp{
+                    max-height: 22px;
+                    transition: all ease 400ms;
+                }
+            }
+            .placeholder{
+                color: #848e99;
+
+            }
+        }
+        .line{
+            label{
+                width: calc(50% - 15px);
+            }
+        }
+        .submit{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            max-width: 660px;
+            margin-right: 0;
+            margin-left: auto;
+            label{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                cursor: pointer;
+
+                p{
+                    font-size: 16px;
+                    color: #3b4256;
+                    margin-right: 15px;
+                    max-width: 373px;
+                }
+                .jq-checkbox, .jq-radio{
+                    background: #0c49cd;
+                    min-width: 24px;
+                    height: 24px;
+                    border: 0;
+                    box-shadow: none;
+                    margin-right: 15px;
+                    margin-top: 10px;
+                }
+                .jq-checkbox.checked .jq-checkbox__div{
+                    width: 11px;
+                    height: 6px;
+                    margin: 7px 0 0 7px;
+                    border-bottom: 2px solid #fff;
+                    border-left: 2px solid #fff;
+                }
+            }
+            button{
+                background-color: #2d5ca6;
+                border-radius: 4px;
+                width: 100%;
+                max-width: 250px;
+                text-align: center;
+                font-weight: 600;
+                border: 0;
+                outline: none;
+                padding: 14px 0;
+                font-size: 16px;
+                letter-spacing: 1px;
+                color: #f4f7fb;
+                cursor: pointer;
+                line-height: 20px;
+            }
+        }
+    }
+}
