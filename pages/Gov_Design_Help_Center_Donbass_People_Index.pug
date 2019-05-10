@@ -5,13 +5,14 @@ block head
         link(rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick-theme.css")
         link(rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick.css")
 block content
-     include ../components/banner_block/index
-     include ../components/immigrant_block/index
-     include ../components/news_block/index
-     include ../components/appeal_block/index
-     include ../components/objects_block/index
-     include ../components/howitwork_block/index
-     include ../components/contact_block/index
+    +header('#fff;')
+    include ../components/banner_block/index
+    include ../components/immigrant_block/index
+    include ../components/news_block/index
+    include ../components/appeal_block/index
+    include ../components/objects_block/index
+    include ../components/howitwork_block/index
+    include ../components/contact_block/index
 block script
     script(src="assets/plugins/slick/slick/slick.min.js")
     script.
@@ -26,5 +27,5 @@ block script
             });
         });
 
-     
+
 

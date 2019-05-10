@@ -1,0 +1,23 @@
+section.form_block
+    .container
+        p.header Форма звернення
+        .form
+            form(method="post")
+                label(for="name").__input
+                    span.placeholder Прізвище Ім’я По Батькові
+                    input(id="name").inp
+                .line
+                    label(for="mail").__input
+                        span.placeholder Тема
+                        input(id="mail").inp
+                    label(for="pass").__input
+                        span.placeholder E-mail
+                        input(id="pass").inp
+                label(for="mass").__input.txt
+                    span.placeholder Суть Вашого звернення
+                    textarea(id="mass")
+                .submit
+                    label(for="143")
+                        input(type="checkbox" id="143")
+                        p Даю згоду на обробку та збереження персональних дани з метою їх використання в електронних зверненнях Покровської міської ради, відповідно до Закону України «Про персональні дані» та Закон України «Про звернення громадян»
+                    button(type="submit") Відправити
