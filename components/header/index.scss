@@ -43,7 +43,7 @@ header{
       }
     }
   }
-  
+
   .lenguage{
     display: flex;
     flex-direction: row;
@@ -196,7 +196,7 @@ header{
         display: block;
     }
 }
-  
+
   .emblem{
     width: 100%;
     max-width: 58px;
@@ -221,7 +221,7 @@ header{
     border-bottom: 2px solid #dde1e6;
     background-color: #fff;
     .__left{
-      
+
       .logo{
 
       }
@@ -514,7 +514,7 @@ header{
                     width: 100%;
                     max-width: 220px;
                     padding-left: 15px;
-    
+
                 }
                 .__left{
                     align-items: flex-start;
@@ -555,7 +555,7 @@ header{
         }
       }
     }
-    
+
   }
   .bottom_part{
     //border-bottom: 1px solid #dde1e6;
@@ -592,12 +592,12 @@ header{
           }
           &:hover {
             transition: all ease 400ms;
-            border-bottom:2px solid #0e2674;
+            border-bottom:2px solid #3b4256 ;
           }
           & > a{
             display: block;
             font-weight: 600;
-            color: #fff;
+            color: #3b4256;
             padding: 29px 0  33px 0;
             text-decoration: none;
           }
