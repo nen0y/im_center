@@ -88,7 +88,7 @@
         .slick-prev{
             position: relative;
             &:before{
-                display: block;
+                
                 content: '';
                 width: 24px;
                 height: 24px;
@@ -96,7 +96,8 @@
                 background-size: cover;
                 position: absolute;
                 top: 500px;
-                left: 20px;
+                left: 10px;
+                
             }
         }
     }
