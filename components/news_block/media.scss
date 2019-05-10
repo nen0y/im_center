@@ -1,0 +1,47 @@
+@media (max-width: 1200px){
+    .news__box{
+        .news__block{
+            .banner{
+                max-width: 571px;
+                width: 100%;
+            }
+            .item{
+                .entrails{
+                    .description{
+                        max-width: 386px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .news__box{
+        justify-content: center;
+        .news__column{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .news__box{
+        .news__block{
+            .banner{
+                padding: 133px 0 0 15px;
+            }
+            
+            .item{
+                .entrails{
+                    .description{
+                        max-width: 550px;
+                    }
+                }
+                .img img{
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.howitwork_block{
+    background-image: url(/assets/img/content/fambgimage.png);
+    background-size: cover;
+    background-position: center;
+    .title{
+        font-size: 32px;
+        font-weight: 600;
+        color: #394257;
+        margin-top: 67px;
+    }
+    .slider{
+        max-width: 640px;
+        width: 100%;
+        .slider-item{
+            margin: 218px 0 230px;
+            p{
+                font-size: 14px;
+                color: #838e9a;
+                width: 100%;
+                max-width: 480px;
+            }
+            
+        }
+        .slick-dots{
+            bottom: 384px;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            max-width: 640px;
+            li{
+                width: 100px;
+                height: 100px;
+                background-color: #c2c5cb;
+                margin-right: 40px;
+                border-radius: 50%;
+                &.slick-active{
+                    background-color: #6d727c;
+                }
+                button:before{
+                    content: '';
+                }
+            }
+        }
+    }
+}

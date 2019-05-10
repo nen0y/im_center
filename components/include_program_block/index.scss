@@ -1,0 +1,177 @@
+.include_program_block{
+    margin-bottom: 40px;
+    .header{
+        color: #3b4256;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    .text{
+        p{
+            font-size: 18px;
+            color: #3b4256;
+            margin-bottom: 20px;
+        }
+    }
+    .link{
+        margin-bottom: 20px;
+        .line{
+            align-items: center;
+            margin-bottom: 5px;
+            text-decoration: none;
+            &:hover{
+                p{
+                    color: #0a3eb0;
+                    transition: all ease 400ms;
+                    &:before{
+                        transition: all ease 400ms;
+                        background-image: url("../img/minified-svg/attach.svg");
+                    }
+                }
+            }
+        }
+        p{
+            color: #234161;
+            font-size: 16px;
+            font-weight: 600;
+            position: relative;
+            padding-left: 40px;
+            transition: all ease 400ms;
+            &:before{
+                display: block;
+                content: "";
+                width: 24px;
+                transition: all ease 400ms;
+                height: 24px;
+                background-image: url("../img/minified-svg/attach_bl.svg");
+                background-size: cover;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    .form{
+
+
+        .jq-selectbox.jqselect{
+            width: calc(50% - 15px);
+            margin-bottom: 30px;
+        }
+        .jq-selectbox__select{
+            height: inherit;
+            border-radius: 4px;
+            background: #f4f7fb;
+            padding: 20px 16px;
+            display: block;
+            width: 100%;
+            box-shadow: none;
+            outline: none;
+            border: 1px solid transparent;
+        }
+        .jq-selectbox__trigger{
+            border: 0;
+            position: absolute;
+            height: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .jq-selectbox__trigger-arrow{
+            border: 0;
+            background-image: url("../img/minified-svg/keyboard-arrow.svg");
+            width: 20px;
+            height: 20px;
+            transform: rotate(-90deg);
+            position: static;
+
+        }
+        .jq-selectbox__select-text{
+            color: #3b4256;
+            font-size: 16px;
+        }
+        #map_add{
+            width: 100%;
+            max-width: 970px;
+            height: 300px;
+            margin-bottom: 40px;
+        }
+        .text{
+            max-width: 160px;
+            width: 100%;
+            margin-left: 15px;
+            color: #848e99;
+            line-height: 1.71;
+        }
+        .inp{
+            border-radius: 4px;
+            background-color: #f4f7fb;
+            padding: 20px 16px;
+            display: block;
+            margin-bottom: 30px;
+            width: 100%;
+            color: #3b4256;
+            font-size: 16px;
+            outline: none;
+            border: 0;
+        }
+        .line{
+            .inp{
+                width: calc(50% - 15px);
+            }
+        }
+        .submit{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            max-width: 660px;
+            margin-right: 0;
+            margin-left: auto;
+            label{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                cursor: pointer;
+
+                p{
+                    font-size: 16px;
+                    color: #3b4256;
+                    margin-right: 15px;
+                }
+                .jq-checkbox, .jq-radio{
+                    background: #0c49cd;
+                    width: 24px;
+                    height: 24px;
+                    border: 0;
+                    box-shadow: none;
+                    margin-right: 11px;
+                }
+                .jq-checkbox.checked .jq-checkbox__div{
+                    width: 11px;
+                    height: 6px;
+                    margin: 7px 0 0 7px;
+                    border-bottom: 2px solid #fff;
+                    border-left: 2px solid #fff;
+                }
+            }
+            button{
+                border-radius: 4px;
+                background-color: #ffe358;
+                width: 100%;
+                max-width: 170px;
+                text-align: center;
+                font-weight: 600;
+                border: 0;
+                outline: none;
+                padding: 14px 0;
+                font-size: 12px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #3b4256;
+                cursor: pointer;
+                line-height: 20px;
+            }
+        }
+    }
+}

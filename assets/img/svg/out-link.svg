@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>37079510-ED0D-4E98-97D6-08591248A349</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M18.1,4 C19.1653337,4.05333256 20.0013341,4.93333302 20,6 L20,12 L18,12 L18,7.41 L11.71,13.7 L10.3,12.29 L16.59,6 L12,6 L12,4 L18.1,4 Z M18,16 L18,14 L20,14 L20,16 C20,18.209139 18.209139,20 16,20 L8,20 C5.790861,20 4,18.209139 4,16 L4,8 C4,5.790861 5.790861,4 8,4 L10,4 L10,6 L8,6 C6.8954305,6 6,6.8954305 6,8 L6,16 C6,17.1045695 6.8954305,18 8,18 L16,18 C17.1045695,18 18,17.1045695 18,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements-/-Icons-/-S-/-OutLink-">
+            <g id="outlink">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#EEF5FF" xlink:href="#path-1"></use>
+                <g id="_Resources-/-ChangeColorsHere-/-Platinum" mask="url(#mask-2)" fill="#C7CCD1">
+                    <rect id="Rectangle-4-Copy-11" x="0" y="0" width="24" height="24" rx="4"></rect>
+                </g>
+            </g>
+            <g id="external-link" transform="translate(6.000000, 8.000000)"></g>
+        </g>
+    </g>
+</svg>

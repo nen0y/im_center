@@ -1,0 +1,85 @@
+.questions_block{
+    background-image: linear-gradient(to bottom, #f9f9f9, #ffffff);
+    padding-top: 88px;
+    padding-bottom: 38px;
+    .header{
+        text-align: center;
+        color: #3b4256;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 72px;
+    }
+    .question_list{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .__item{
+            height: 360px;
+            width: calc(25% - 22.5px);
+            box-shadow: 0 2px 4px 0 rgba(0, 7, 123, 0.04), 0 8px 20px 0 rgba(0, 0, 0, 0.06);
+            border-radius: 4px;
+            padding: 20px 20px 28px 20px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            transition: all ease 400ms;
+            &:hover{
+                transition: all ease 400ms;
+                box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.25);
+                .link{
+                    opacity: 1;
+                    transition: all ease 400ms;
+                }
+            }
+            &:nth-child(1){
+                background-color: #fcf9ed;
+            }
+            &:nth-child(2){
+                background-color: #f3f8ff;
+            }
+            &:nth-child(3){
+                background-color: #deecff;
+            }
+            &:nth-child(4){
+                background-color: #fcf8f3;
+            }
+            .quest{
+                color: #3b4256;
+                font-size: 24px;
+                font-weight: 700;
+                width: 100%;
+                flex: 1 0 auto;
+            }
+            .link{
+                transition: all ease 400ms;
+                opacity: 0;
+                flex: 0 0 auto;
+                display: block;
+                margin-right: auto;
+                max-width: 170px;
+                width: 100%;
+                margin-left: 0;
+                text-align: left;
+                font-size: 16px;
+                font-weight: 600;
+                color: #0a41b8;
+                text-decoration: none;
+                padding-right: 32px;
+                position: relative;
+                align-self: flex-end;
+                &:before{
+                    content: '';
+                    width: 25px;
+                    height: 25px;
+                    background-image: url("../img/minified-svg/arrow-round_b.svg");
+                    background-size: cover;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+}

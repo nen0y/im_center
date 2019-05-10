@@ -1,0 +1,36 @@
+doctype html
+html(class="no-js", lang="uk")
+
+    include ../components/head/index
+    block head
+
+    body.flex
+
+        include ../components/header/index
+        include ../components/gov_modal_block/index
+
+        block content
+
+        include ../components/footer/index
+
+        script(src='%=static=%js/separate-js/svg4everybody.min.js')
+        script svg4everybody();
+
+
+
+        // ++++++++++++
+        // MAIN SCRIPTS
+        // ++++++++++++
+
+        script(src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous")
+        script(src="https://code.jquery.com/jquery-migrate-1.4.1.min.js")
+        script(src="assets/plugins/FormStyler/dist/jquery.formstyler.min.js")
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js")
+
+        block script
+
+        // User customization
+
+        script(src="assets/js/script.js")

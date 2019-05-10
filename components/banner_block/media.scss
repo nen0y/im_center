@@ -1,0 +1,13 @@
+@media(max-width: 1200px){
+    .header{
+        &__mainchair{
+            display: none;
+        }
+        &__help{
+            padding-top: 380px;
+        }
+        &__help--text{
+            padding-bottom: 14px;
+        }
+    }
+}

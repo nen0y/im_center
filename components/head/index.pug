@@ -1,0 +1,31 @@
+mixin head(data)
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    title Безпечна громада / #{data.title}
+    meta(content="", name="description")
+    meta(content="", name="keywords")
+    meta(name="HandheldFriendly", content="true")
+    meta(name="viewport" content="width=device-width,initial-scale=1,user-scalable=no")
+    if data.useSocialMetaTags
+        meta(property="og:title", content=data.title)
+        meta(property="og:url", content="")
+        meta(property="og:description", content=data.useSocialMetaTags.description)
+        meta(property="og:image", content="favicon.png")
+        meta(property="og:image:type", content="image/png")
+        meta(property="og:image:width", content="44")
+        meta(property="og:image:height", content="60")
+        meta(property="twitter:description", content="")
+        link(rel="image_src", href="")
+
+    link(rel="icon" type="image/x-icon" href="favicon.png")
+    link(href="assets/fonts/stylesheet.css" rel="stylesheet")
+    link(href="assets/fonts/fontawesome/css/all.min.css" rel="stylesheet")
+    link(href="assets/css/main.css" rel="stylesheet")
+    link(href="assets/plugins/FormStyler/dist/jquery.formstyler.css" rel="stylesheet")
+    link(href="assets/plugins/FormStyler/dist/jquery.formstyler.theme.css" rel="stylesheet")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css")
+    block style
+
+
+
+

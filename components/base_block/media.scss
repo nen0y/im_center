@@ -1,0 +1,10 @@
+@media (max-width: 1200px){
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+        max-width: inherit;
+        justify-content: center;
+    }
+}

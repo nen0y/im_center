@@ -1,0 +1,45 @@
+section.poll_block
+    .container
+        .line
+            .__left
+                p.header Зробити повідомлення
+                .form
+                    form(method="post")
+                        label(for="name").name
+                            span.sub Тема
+                            input(placeholder="Залиште тему Вашого звернення" id="name")
+                        .line
+                            input(placeholder="Ваше Iм'я").inp
+                            input(placeholder="E-mail").inp
+                        textarea(placeholder="Опис")
+                        .submit
+                            label(for="143")
+                                input(type="checkbox" id="143")
+                                p Я згоден з правилами звернень громадян та обробки моїх даних
+                            button(type="submit") Надіслати
+            .__right
+                p.header Опитування
+                .poll__part
+                    p.sub__head Дуже довге запитання на яке потріба гарна відповідь?
+                    .content
+                        .line
+                            label(for="321") Вариант А
+                                input(type="checkbox" id="321")
+                            p.progress
+                                span(style="width:25%")
+                            p.qty 25 %
+                        .line
+                            label(for="322") Вариант А
+                                input(type="checkbox" id="322")
+                            p.progress
+                                span(style="width:25%")
+                            p.qty 25 %
+                        .line
+                            label(for="323") Вариант А
+                                input(type="checkbox" id="323")
+                            p.progress
+                                span(style="width:25%")
+                            p.qty 25 %
+                        .line
+                            p.data Триває до 08/02/2019
+                            a(href="#").link Усі опитування

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ProbaPro';
+    src: url('ProbaPro-Regular.eot');
+    src: url('ProbaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProbaPro-Regular.woff2') format('woff2'),
+        url('ProbaPro-Regular.woff') format('woff'),
+        url('ProbaPro-Regular.svg#ProbaPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProbaPro';
+	src: url('ProbaPro-SemiBold.woff2') format('WOFF2'),
+		url('ProbaPro-SemiBold.woff') format('WOFF'),
+		url('ProbaPro-SemiBold.eot') format('EOT'),
+		url('ProbaPro-SemiBold.svg') format('SVG');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProbaPro';
+	src: url('ProbaPro-Bold.woff2') format('WOFF2'),
+		url('ProbaPro-Bold.woff') format('WOFF'),
+		url('ProbaPro-Bold.eot') format('EOT'),
+		url('ProbaPro-Bold.svg') format('SVG');
+	font-weight: 700;
+	font-style: normal;
+}

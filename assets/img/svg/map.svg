@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>B988394B-6B7D-41BB-9DB7-5B9DDCD90518</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M21.1805556,3 L21.0143333,3.03116667 L15.4666667,5.18166667 L9.23333333,3 L3.374,4.97388889 C3.15583333,5.04661111 3,5.23361111 3,5.47255556 L3,21.1805556 C3,21.4714444 3.22855556,21.7 3.51944444,21.7 L3.68566667,21.6688333 L9.23333333,19.5183333 L15.4666667,21.7 L21.326,19.7261111 C21.5441667,19.6533889 21.7,19.4663889 21.7,19.2274444 L21.7,3.51944444 C21.7,3.22855556 21.4714444,3 21.1805556,3 Z M15.4666667,19.6222222 L9.23333333,17.4301667 L9.23333333,5.07777778 L15.4666667,7.26983333 L15.4666667,19.6222222 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements-/-Icons-/--S-/-Map">
+            <g id="Map">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#94979B" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="_Resources-/-ChangeColorsHere-/-Platinum" mask="url(#mask-2)" fill="#C7CCD1">
+                    <rect id="Rectangle-4-Copy-11" x="0" y="0" width="24" height="24" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

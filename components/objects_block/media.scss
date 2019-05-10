@@ -1,0 +1,8 @@
+@media (max-width: 767px){
+    .object__box{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

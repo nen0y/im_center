@@ -1,0 +1,139 @@
+// backgroud
+$yellow-bg:#ffe358;
+$blue-bg:#2669e3;
+$modal-gov-bg:#31486c;
+$modal-background:#000;
+// backgroud
+
+
+//text
+$link-color:#fff;
+$text-light:#fff;
+$text-logo-color:#337ab7;
+$text-logo-descr-color:#aab3c6;
+//text
+
+
+.main-logo-light,
+.main-logo-dark {
+    text-decoration:none;
+    display: flex;
+    .icon-flag {
+        width: 10px;
+        height: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 10px;
+        .yellow {
+            background-color: $yellow-bg;
+            width: 10px;
+            height: 20px;
+        }
+        .blue {
+            background-color: $blue-bg;
+            width: 10px;
+            height: 20px;
+        }
+    }
+    .wrap-text {
+        display: flex;
+        flex-direction: column;
+        .one {
+            color: $text-logo-color;
+            font-weight: 700;
+            line-height: 0.5;
+            font-size: 154%;
+        }
+        .light {
+            font-weight: 100;
+            color: $text-logo-descr-color;
+            margin-top: 10px;
+            font-size: 0.8em;
+            letter-spacing: .8px;
+            white-space: nowrap;
+        }
+    }
+}
+.main-logo-dark {
+    .wrap-text {
+        
+        .one {
+            color: $text-light;
+        }
+    }
+}
+#modal-gov {
+    background-color: $modal-gov-bg;
+    max-width: 760px;
+    position: absolute;
+    z-index: 1050;
+    display: none;
+    .wrap {
+        padding: 30px 0 30px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        .wrap-link {
+            margin-right: 40px;
+            padding-left: 0;
+            margin-bottom: 30px;
+            li {
+                list-style-type: none;
+                a {
+                    color: $link-color;
+                    border-bottom: 1px solid transparent;
+                    transition: all .2s ease-in-out;
+                    text-decoration: none;
+                    font-weight: 700;
+                    line-height: 30px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .close {
+        right: 15px;
+        top: 15px;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM1LjQxMyAzNS40MTMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM1LjQxMyAzNS40MTM7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMC41MzUsMTcuMjk0TDM0LjAwMiwzLjgyN2MwLjc4MS0wLjc4MSwwLjc4MS0yLjA0NywwLTIuODI4Yy0wLjc4LTAuNzgxLTIuMDQ4LTAuNzgxLTIuODI4LDBMMTcuNzA3LDE0LjQ2Nkw0LjI0MiwwLjk5OSAgICBjLTAuNzgtMC43ODEtMi4wNDctMC43ODEtMi44MjgsMHMtMC43ODEsMi4wNDcsMCwyLjgyOGwxMy40NjUsMTMuNDY3TDAuNTg2LDMxLjU4N2MtMC43ODEsMC43ODEtMC43ODEsMi4wNDcsMCwyLjgyOCAgICBjMC4zOSwwLjM5MSwwLjkwMiwwLjU4NiwxLjQxNCwwLjU4NnMxLjAyNC0wLjE5NSwxLjQxNC0wLjU4NmwxNC4yOTMtMTQuMjkzTDMyLDM0LjQxNWMwLjM5MSwwLjM5MSwwLjkwMiwwLjU4NiwxLjQxNCwwLjU4NiAgICBzMS4wMjMtMC4xOTUsMS40MTQtMC41ODZjMC43ODEtMC43ODEsMC43ODEtMi4wNDcsMC0yLjgyOEwyMC41MzUsMTcuMjk0eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=') center no-repeat;
+        background-size: cover;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #modal-gov {
+        margin-left: -15px;
+    }
+    #modal-gov {
+        .wrap {
+            padding: 15px 0 15px 30px;
+            .wrap-link {
+                margin-top: 10px;
+                margin-bottom: 15px;
+                li {
+                    a {
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-background {
+    background-color: $modal-background;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}

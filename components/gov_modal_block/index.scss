@@ -1,0 +1,38 @@
+.mfp-content{
+    .gov_modal_block{
+        display: flex;
+    }
+}
+.gov_modal_block{
+    display: none;
+    padding: 30px 0 30px 60px;
+    background-color: #31486c;
+    max-width: 760px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    .close{
+        font-size: 14px;
+        color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    ul{
+        margin-right: 40px;
+        padding-left: 0;
+        margin-bottom: 30px;
+        li{
+            a{
+                color: #fff;
+                border-bottom: 1px solid transparent;
+                transition: all .2s ease-in-out;
+                text-decoration: none;
+                font-weight: 700;
+                line-height: 30px;
+            }
+        }
+    }
+}

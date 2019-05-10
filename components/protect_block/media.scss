@@ -1,0 +1,28 @@
+
+@media(max-width: 1200px) {
+    .protect_block .__left{
+        max-width: 629px;
+    }
+    .protect_block .__right{
+        max-width: 307px;
+    }
+
+}
+@media(max-width: 991px) {
+    .protect_block > .container > .line{
+        flex-direction: column;
+    }
+    .protect_block .__left{
+        max-width: inherit;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    .protect_block .__right{
+        max-width: inherit;
+    }
+    .protect_block .__right{
+        padding-right: 0;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,43 @@
+extends _parent_template
+block head
+    +head(head.news_item)
+    block style
+        link(rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick-theme.css")
+        link(rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick.css")
+block content
+    include ../components/news_item_block/index
+    include ../components/similar_buildings_block/index
+block script
+    script(src="assets/plugins/slick/slick/slick.min.js")
+    script(type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM123VIfYq9BKb7Amtd5MIO5_tQUEWFXU")
+    script(src="assets/js/map.js")
+    script.
+        $(document).ready(function() {
+            // slider product
+            $(".display_product").slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: true,
+                asNavFor: ".tabs_product"
+            });
+            $(".tabs_product").slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                asNavFor: ".display_product",
+                dots: false,
+                arrows: true,
+                centerMode: false,
+                focusOnSelect: true,
+                responsive: [
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 2,
+                        },
+                    },
+                ]
+
+            });
+        });
+

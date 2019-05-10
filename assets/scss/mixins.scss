@@ -1,0 +1,100 @@
+// Mixins.
+
+@mixin nl {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style: none;
+    list-style-position: outside;
+}
+
+@mixin cl {
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    .lt-ie8 & {
+        zoom: 1;
+    }
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+
+@mixin grad {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin last-child {
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@mixin wcag($property, $values, $important: false) {
+    #{$property}: map-get($values, white);
+
+    @each $colorScheme, $value in $values {
+        html[data-color="#{$colorScheme}"] & {
+            @if $important == true {
+                #{$property}: $value !important;
+            } @else {
+                #{$property}: $value
+            }
+
+        }
+    }
+}
+
+// --- Helpers ---
+
+
+// Vertical align
+@mixin helper {
+  &:before {
+    width: 0;
+    height: 100%;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+@mixin helper-2 {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+// The horizontal placement of blocks without spaces
+
+@mixin blocks-inline {
+  padding-left: 0;
+  list-style-type: none;
+
+  & > li {
+    display: inline-block;
+    margin-right: -3px;
+    vertical-align: top;
+  }
+}

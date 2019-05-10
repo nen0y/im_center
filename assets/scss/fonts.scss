@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Proba Pro";
+  src: url('../fonts/ProbaPro/ProbaPro-Regular.woff2') format('WOFF2'),
+    url('../fonts/ProbaPro/ProbaPro-Regular.woff') format('WOFF'),
+    url('../fonts/ProbaPro/ProbaPro-Regular.svg') format('SVG');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proba Pro";
+  src: url('../fonts/ProbaPro/ProbaPro-SemiBold.woff2') format('WOFF2'),
+    url('../fonts/ProbaPro/ProbaPro-SemiBold.woff') format('WOFF'),
+    url('../fonts/ProbaPro/ProbaPro-SemiBold.eot') format('EOT'),
+    url('../fonts/ProbaPro/ProbaPro-SemiBold.svg') format('SVG');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proba Pro";
+  src: url('../fonts/ProbaPro/ProbaPro-Bold.woff2') format('WOFF2'),
+    url('../fonts/ProbaPro/ProbaPro-Bold.woff') format('WOFF'),
+    url('../fonts/ProbaPro/ProbaPro-Bold.eot') format('EOT'),
+    url('../fonts/ProbaPro/ProbaPro-Bold.svg') format('SVG');
+  font-weight: 700;
+  font-style: normal;
+}

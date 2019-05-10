@@ -1,0 +1,99 @@
+.camera_block{
+  background-image: linear-gradient(to bottom, #f9f9f9, #ffffff);
+  padding-top: 81px;
+  padding-bottom: 60px;
+  .line{
+      align-items: center;
+  }
+  .__left{
+      position: relative;
+      max-width: 560px;
+      width: 100%;
+      &:before{
+          display: block;
+          content: "";
+          opacity: 0.3;
+          background-color: #d7efd6;
+          position: absolute;
+          top: calc(50% - 15px);
+          left: 50%;
+          transform: translate(-50%,-50%);
+          width: 475px;
+          height: 448px;
+          border-radius: 50%;
+          z-index: 1;
+      }
+      .camera__space{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .__item{
+              border-radius: 9px;
+              box-shadow: 0 2px 4px 0 rgba(0, 7, 123, 0.04), 0 8px 20px 0 rgba(0, 0, 0, 0.06);
+              text-decoration: none;
+              display: block;
+              margin-bottom: 30px;
+              background-color: #f5f7fa;
+              position: relative;
+              z-index: 5;
+              overflow: hidden;
+              .img{
+                  width: 265px;
+                  height: 133px;
+                  background-size: cover;
+                  background-position: center;
+                  margin-bottom: 18px;
+              }
+              .text{
+                  color: #848e99;
+                  font-size: 18px;
+                  font-weight: 600;
+                  margin-bottom: 18px;
+                  padding: 0 19px;
+              }
+
+          }
+      }
+  }
+  .__right{
+    max-width: 453px;
+    width: 100%;
+      .header{
+          color: #3b4256;
+          font-size: 32px;
+          font-weight: 700;
+          margin-bottom: 30px;
+      }
+      .text{
+          color: #848e99;
+          font-size: 16px;
+          position: relative;
+          margin-bottom: 35px;
+      }
+
+      .link{
+          display: block;
+          margin-right: auto;
+          max-width: 180px;
+          margin-left: 0;
+          text-align: left;
+          font-size: 16px;
+          color: #0a41b8;
+          text-decoration: none;
+          padding-right: 32px;
+          position: relative;
+          &:before{
+              content: '';
+              width: 25px;
+              height: 25px;
+              background-image: url("../img/minified-svg/arrow-round_b.svg");
+              background-size: cover;
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%);
+          }
+      }
+  }
+}

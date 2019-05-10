@@ -1,0 +1,102 @@
+.news__box{
+    display: flex;
+    justify-content: space-between;
+    .news__block{
+        .title{
+            font-family: ProbaPro;
+            font-size: 32px;
+            font-weight: 600;
+            color: #3a4257;
+            margin-top: 54px;
+            position: relative;
+            
+            &:after{
+                content: '';
+                width: 24px;
+                height: 24px;
+                background-image: url(/assets/img/minified-svg/keyboard-arrow.svg);
+                position: absolute;
+                top: 50%;
+                transform: rotate(180deg) translateY(50%);
+            }
+        }
+        .banner{
+            max-width: 736px;
+            width: 100%;
+            background-image: url(/assets/img/content/2121175.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 343px 0px 9px 33px;
+            margin: 52px 0 41px 0;
+            
+            .date{
+                font-family: ProbaPro;
+                font-size: 14px;
+                color: #f4f7fb;
+            }
+            .description{
+                font-family: ProbaPro;
+                font-size: 24px;
+                color: #f4f7fb;
+                padding-bottom: 24px;
+            }
+        }
+        .item{
+            margin: 0 0 23px 0;
+            border-bottom: 1px solid #dde1e6;
+            display: flex;
+            justify-content: space-between;
+            .entrails{
+                display: flex;
+                flex-direction: column;
+                .description{
+                    font-family: ProbaPro;
+                    font-size: 18px;
+                    color: #3b4256;
+                    width: 100%;
+                    max-width: 543px;
+                    padding: 0 35px 24px 0;
+                    &:hover{
+                        color: #185daa;
+                        cursor: pointer;
+                    }
+                }
+                .data{
+                    color: #838e99;
+                    font-family: ProbaPro;
+                    font-size: 14px;
+                    padding-bottom: 24px;
+                }
+            }
+            .img img{
+                width: 100%;
+                max-width: 160px;
+            }
+            
+        }
+    }
+    .news__column{
+        margin-top: 144px;
+        &:last-child{
+            border-bottom: none;
+        }
+        .item{
+            max-width: 352px;
+            width: 100%;
+            .time{
+                font-family: ProbaPro;
+                font-size: 14px;
+                color: #97a4b1;
+                margin-bottom: 8px;
+            }
+            .description{
+                font-family: ProbaPro;
+                font-size: 14px;
+                color: #3a4257;
+                padding-bottom: 36px;    
+                margin-bottom: 16px;
+                border-bottom: 1px solid  #dde1e6;
+            }
+        }
+    }
+}

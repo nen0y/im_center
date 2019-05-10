@@ -1,0 +1,27 @@
+@media (max-width: 991px){
+    .appeal_block{
+        .box{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            .statistic{
+                
+                width: 100%;
+                max-width: 530px;
+                
+            }
+        }
+    }
+}
+    
+
+@media (max-width: 320){
+    .box{
+        .statistic{
+            
+            width: 100%;
+            max-width: 330px;
+            
+        }
+    }
+}

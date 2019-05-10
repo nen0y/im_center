@@ -1,0 +1,14 @@
+
+@media(max-width: 1200px) {
+  header .bottom_part .__left {
+    max-width: 300px;
+  }
+}
+@media(max-width: 991px) {
+  header .header{
+    display: none;
+  }
+  header .mobile_header{
+    display: block;
+  }
+}

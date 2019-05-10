@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 991px) {
+    .similar_news_block .news_place .__item{
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .similar_news_block .news_place .__item{
+        width: 100%;
+    }
+}
+

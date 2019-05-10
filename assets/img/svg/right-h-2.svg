@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>DA6F70B7-3FC5-44A1-8855-ABC958C4E73B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="7 19.0054469 14.1533954 11.9995 7 4.9935531 9.56443472 2.48000002 19.3004523 11.9995 9.56443472 21.519"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements-/-Icons-/-S-/-Arrows-/-right-H2">
+            <g id="right_h2">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="_Resources-/-ChangeColorsHere-/-Ink" mask="url(#mask-2)" fill="#3B4256">
+                    <rect id="↳-🎨Color" x="0" y="0" width="24" height="24" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    .buildings_block .buildings_place .__item .wrapper > .line{
+        flex-direction: column;
+    }
+    .buildings_block .buildings_place .__item .map{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .buildings_block .buildings_place .__item{
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .buildings_block .buildings_place .__item{
+        width: 100%;
+    }
+}
+

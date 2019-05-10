@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .news_next_block .__left{
+        max-width: 629px;
+    }
+    .news_next_block .__right{
+        max-width: 307px;
+    }
+    .news_next_block .__right .poll__part .line .progress{
+        width: 135px;
+    }
+}
+@media (max-width: 991px) {
+    .news_next_block .__left{
+        max-width: inherit;
+        overflow: hidden;
+    }
+    .news_next_block .__right{
+        max-width: inherit;
+        padding-top: 30px;
+    }
+    .news_next_block > .container > .line{
+        flex-direction: column;
+    }
+    .news_next_block .__right .contact{
+        width: 100%;
+    }
+    .news_next_block .__right .poll__part .line .progress{
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+    .news_next_block .__right .poll__part .line .progress{
+        width: 48%;
+    }
+    .news_next_block .__right .poll__part .line:last-child{
+        flex-direction: column;
+        align-items: flex-start;
+        .data{
+            margin-bottom: 15px;
+        }
+        .link{
+            margin-left: 0;
+            margin-right: auto;
+        }
+    }
+}

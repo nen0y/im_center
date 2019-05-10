@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>B422AE2E-2D83-4A82-BA93-6BEB3AA0A15D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="20 11 13 11 13 4 11 4 11 11 4 11 4 13 11 13 11 20 13 20 13 13 20 13"></polygon>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Desktop-UI" transform="translate(-528.000000, -665.000000)">
+            <g id="add" transform="translate(524.000000, 661.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Path" fill="#2D5CA6" xlink:href="#path-1"></use>
+                <g id="_Resources-/-ChangeColorsHere-/-Platinum" mask="url(#mask-2)" fill="#234161">
+                    <rect id="Rectangle-4-Copy-11" x="0" y="0" width="24" height="24" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
