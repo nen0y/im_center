@@ -6,10 +6,18 @@ footer{
   .pic {
     margin-right: 12px;
     margin-bottom: 27px;
-    img{
-        width: 64px;
-        height: 64px;
-    }
+    .logo{
+      max-width: 64px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      &-line{
+        max-width: 4px;
+        width: 100%;
+        height: auto;
+        margin: 0 15px 0 12px;
+      }
+    }   
   }
 
   .top_part {
