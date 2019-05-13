@@ -52,6 +52,34 @@ $(document).ready(function() {
             .closest('div.tabs').find('div.tabs_item').removeClass('active').eq($(this).index()).addClass('active');
     });
 
+    // INPUT EFFECTS
+    $('.form label').on('focusin',function () {
+        $(this).addClass("active");
 
+    }).on( "focusout",function(){
+        $(this).removeClass("active");
+        if($(this).children('input').val()){
+            $(this).addClass("active");
+        }
+    })
+    $('.form label').keyup(function () {
+        if($(this).children('input').val() == ''){
+            $(this).removeClass("active");
+        } else{
+            $(this).addClass("active");
+        }
+        if($(this).children('input').val()){
+            $(this).addClass("active");
+        }
+    })
+    //upload
+    if ($(".js-upload").length) {
+        $(".js-upload").dropzone({
+            url: "../../assets/php/index.php",
+            clickable: ".js-upload-btn",
+            previewsContainer: ".download_file",
+            previewTemplate: "<div class='__item'><p class='names' data-dz-name></p><p class='cancel' data-dz-remove>Cкасувати</p></div>"
+        });
+    }
 
 });

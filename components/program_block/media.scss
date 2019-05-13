@@ -1,0 +1,45 @@
+
+@media(max-width: 1200px) {
+    .include_program_block .form .map .__left{
+        max-width: 780px;
+    }
+}
+@media(max-width: 991px) {
+    .include_program_block .form .map {
+        flex-direction: column-reverse;
+    }
+    .include_program_block .form .map .__left{
+        max-width: inherit;
+    }
+    .include_program_block .form .map .__right{
+        max-width: inherit;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 767px) {
+    .include_program_block .form .line{
+        flex-direction: column;
+        .inp{
+            width: 100%;
+        }
+        .jq-selectbox.jqselect{
+            width: 100%;
+        }
+    }
+    .include_program_block .form .line label{
+        width: 100%;
+    }
+    .include_program_block .form .submit label{
+        margin-bottom: 30px;
+    }
+    .include_program_block .form .text{
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+    .include_program_block .form .download .bt{
+        display: inline-table;
+    }
+    .include_program_block .form .submit{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,7 @@
+extends _parent_template
+block head
+    +head(head.home)
+block content
+    +header()
+    include ../components/news_list_block/index
+    include ../components/pagination_block/index
