@@ -1,0 +1,118 @@
+@media (max-width: 1200px){
+    .house_restored_block{
+        .box{
+            justify-content: center;
+            .left{
+                max-width: 940px;
+                width: 100%;
+                .description{
+                    .finance{
+                        .type{
+                            .type-sub-had{
+                                max-width: 479px;
+                            }
+                        }
+                    }
+                    .images{
+                        img{
+                            max-width: 301px;
+                        }
+                    }
+                }
+            }
+            .right{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .house_restored_block{
+        .bread_crumbs_block{
+            display: none;
+        }
+        .box{
+            justify-content: center;
+            .left{
+                max-width: 940px;
+                width: 100%;
+                .header{
+                    .sub-had{
+                        .street{
+                            white-space: nowrap;
+                        }
+                    }
+                }
+                .description{
+                    .finance{
+                        .type{
+                            .type-sub-had{
+                                max-width: 479px;
+                            }
+                        }
+                    }
+                    .images{
+                        flex-direction: column;
+                       
+                        img{
+                            max-width: 960px;
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+            }
+            .right{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .house_restored_block{
+        .box{
+            .left{
+                .header{
+                    .had{
+                        position: relative;
+                        .date{
+                            position: absolute;
+                            right: 0px;
+                            top: 100px;
+                        }
+                    }
+                    .sub-had{
+                        
+                        flex-direction: column;
+                        .state{
+                            justify-content: flex-end;
+                            margin-top: 48px;
+                            
+                        }
+                    }
+                }
+                .map{
+                    .text{
+                        margin: 33px 0px 50px 0;
+                    }
+                }
+                .description{
+                    .lines{
+                        position: relative;
+                        .executor{
+                            position: absolute;
+                            top: -40px;
+                        }
+                    }
+                    .finance{
+                        flex-direction: column;
+                        .type{
+                            margin-top: 32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
