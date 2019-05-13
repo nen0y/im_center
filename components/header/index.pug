@@ -5,7 +5,10 @@ mixin header(color)
                 .line
                     .__left
                         a(href="#").logo
-                            img(src='assets/img/content/zp.png', alt='logo')
+                            img(src="assets/img/content/Gerb.png" alt="emblem").logo_mobile
+                            img(src="assets/img/content/flag-divider-64-3.png" alt="emblem").logo-line
+                            img(src="assets/img/content/group-132.png" alt="emblem").logo_mobile
+                            
                     .__right
                         a(href="#").visible
                             img(src='assets/img/minified-svg/accessibility-icon-big.svg', alt='vis')
@@ -29,7 +32,11 @@ mixin header(color)
                                 .__right
                                     .sendwich.c
                                         span.sendwich-btn
-                            img(src="assets/img/content/zp.png" alt="emblem").logo
+                            .logo_set
+                                img(src="assets/img/content/Gerb.png" alt="emblem").logo_mobile
+                                img(src="assets/img/content/flag-divider-64-3.png" alt="emblem").logo-line
+                                img(src="assets/img/content/group-132.png" alt="emblem").logo_mobile
+                                
                             .header-entity
                                 p.had Центр допомоги переселенцям
                                 p.sub_had Покровської міської ради
@@ -75,13 +82,16 @@ mixin header(color)
                             a(href="#").visible
                                 img(src='assets/img/content/accessibility-icon-big.png', alt='vis')
                             p.lenguage
+                                
                                     select
+                                    
                                         option.lang-ua
                                             p Українська
                                         option.lang-en
                                             p English
                                         option.lang-ru
                                             p Русский
+                                
                             .login.logined
                                 p Вхід
                                 img(src="assets/img/content/dropdown.png" alt="tr")
@@ -101,7 +111,7 @@ mixin header(color)
                 .container
                     .line
                         .__left
-                            img(src="assets/img/content/zp.png" alt="emblem").emblem
+                            img(src="assets/img/content/group-132.png" alt="emblem").emblem
                             .header-entity
                                 p.had(style={color}) Центр допомоги переселенцям
                                 p.sub_had(style={color}) Покровської міської ради

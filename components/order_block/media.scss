@@ -7,3 +7,23 @@
         max-width: inherit;
     }
 }
+
+@media (max-width: 767px){
+.order_block{
+    .bread_crumbs_block
+    {
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+        max-width: inherit;
+        .order{
+            margin-top: 20px;
+        }
+    }
+}
+    
+}

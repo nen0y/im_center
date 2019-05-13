@@ -1,0 +1,122 @@
+.help_center_contact_block{
+    .box{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            max-width: 672px;
+            width: 100%;
+            .title{
+                margin: 20px 0 27px 0;
+                font-size: 32px;
+                font-weight: bold;
+                color: #1d1d1b;
+            }
+            .description{
+                font-size: 18px;
+                color: #3b4256;
+            }
+            #main_map{
+                height: 357px;
+                margin: 39px 0 51px 0;
+            }
+            .hot_line{
+                .text{
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #3b4256;    
+                }
+                .number{
+                    font-size: 24px;
+                    font-weight: bold; 
+                    color: #3b4256;  
+                }
+                .time_table{
+                    font-size: 18px;
+                    color: #3b4256;
+                    margin-top: 20px;
+                }
+            }
+            .middle{
+                margin: 54px 0 12px 0;
+                display: flex;
+                justify-content: space-between;
+                .address{
+                    .text{
+                        font-size: 18px;
+                        font-weight: bold;    
+                        color: #3b4256;
+                    }
+                    .place{
+                        font-size: 18px;
+                        color: #3b4256;
+                    }
+                }
+                .contact{
+                    .text{
+                        font-size: 18px;
+                        font-weight: bold;    
+                        color: #3b4256;
+                    }
+                    .number{
+                        font-size: 18px;
+                        color: #3b4256;
+                    }
+                    a{
+                        font-size: 18px;
+                        color: #2d5ca6;
+                    }   
+                }
+            }
+            .other{
+                margin-bottom: 79px;
+                .text{
+                    font-size: 18px;
+                    font-weight: bold;    
+                    color: #3b4256;
+                }
+                .number{
+                    font-size: 18px;
+                    color: #3b4256;
+                }
+                a{
+                    font-size: 18px;
+                    color: #2d5ca6;
+                }      
+            }
+        }
+        .right{
+            .statistic{
+                margin-bottom: 74px;
+                background-color: #fff;
+                padding: 11px 108px 47px 32px;
+                box-shadow: 0 2px 4px 0 rgba(0, 7, 123, 0.04), 0 8px 20px 0 rgba(0, 0, 0, 0.06);
+                .text{
+                    padding: 26px 0 8px 0;
+                    
+                    font-size: 14px;
+                    color: #3b4256;   
+                }
+                .counter{
+                    
+                    font-size: 32px;
+                    font-weight: 600;
+                    color: #3a4257;    
+                }
+                a{
+                    display: block;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: #f4f7fb;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                    background-color: #0c49cd;
+                    border-radius: 4px;
+                    max-width: 219px;
+                    width: 100%;
+                    text-align: center;
+                    padding: 15px 0;
+                }
+            }
+        }
+    }
+}

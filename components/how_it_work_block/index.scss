@@ -1,5 +1,6 @@
 .how_it_work_block{
-    background-image: url('assets/img/content/fam-bg-image@3x.png');
+    display: block;
+    background-image: url('../img/content/fambgimage3x.png');
     background-size: cover;
     background-position: center;
     .title{
@@ -93,6 +94,21 @@
                 width: 24px;
                 height: 24px;
                 background-image: url(/assets/img/content/left@3x.png);
+                background-size: cover;
+                position: absolute;
+                top: 500px;
+                left: 10px;
+
+            }
+        }
+        .slick-next{
+            position: relative;
+            &:before{
+
+                content: '';
+                width: 24px;
+                height: 24px;
+                background-image: url('../img/content/right@3x.png');
                 background-size: cover;
                 position: absolute;
                 top: 500px;
