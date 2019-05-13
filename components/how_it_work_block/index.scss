@@ -93,7 +93,7 @@
                 content: '';
                 width: 24px;
                 height: 24px;
-                background-image: url(/assets/img/content/left@3x.png);
+                background-image: url('../img/content/left@3x.png');
                 background-size: cover;
                 position: absolute;
                 top: 500px;
@@ -111,9 +111,9 @@
                 background-image: url('../img/content/right@3x.png');
                 background-size: cover;
                 position: absolute;
-                top: 500px;
+                bottom: 44px;
                 left: 10px;
-
+                z-index: 10;
             }
         }
     }
