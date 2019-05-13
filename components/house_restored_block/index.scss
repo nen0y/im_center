@@ -1,0 +1,260 @@
+.house_restored_block{
+    .box{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            max-width: 672px;
+            width: 100%;
+            .header{
+                margin-top: 20px;
+                .had{
+                    display: flex;
+                    justify-content: space-between;
+                    .city{
+                        font-size: 32px;
+                        font-weight: bold;
+                        color: #1d1d1b;
+                    }
+                    .date{
+                        font-size: 14px;
+                        color: #9b9b9b;
+                    }
+                }
+                .sub-had{
+                    display: flex;
+                    justify-content: space-between;
+                    .street{
+                        font-size: 32px;
+                        font-weight: bold;
+                        color: #1d1d1b;
+                    }
+                    .state{
+                        display: flex;
+                        
+                        align-items: center;
+                        p{
+                            display: block;
+                            width: 100%;
+                            max-width: 159px;
+                            color: #848e99;
+                            opacity: 0.5;
+                            border-radius: 14px;
+                            border: solid 1px #848e99;
+                            text-align: center;
+                            padding: 5px 10px;
+                            white-space: nowrap;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+            .map{
+                #main_map{
+                    height: 357px;
+                    margin-top: 21px;
+                }
+                .text{
+                    margin: 33px 0px 20px 0;
+                    font-size: 18px;
+                    color: #3b4256;
+                }
+            }
+            .description{
+                .lines{
+                    display: flex;
+                    
+                    margin-bottom: 32px;
+                    .start{
+                        margin-right: 105px;
+                        .text{
+                            font-size: 14px;
+                            color: #3b4256;
+                        }
+                        .year{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #3b4256;
+                        }
+                    }
+                    .end{
+                        margin-right: 165px;
+                        .text{
+                            font-size: 14px;
+                            color: #3b4256;
+                        }
+                        .year{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #3b4256;
+                        }
+                    }
+                    .executor{
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #3b4256;
+                    }
+                }
+                .money{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-bottom: 34px;
+                    .planed{
+                        margin-right: 19px;
+                        .text{
+                            font-size: 14px;
+                            color: #3b4256;
+                        }
+                        .year{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #3b4256;
+                        }
+                    }
+                    .process_year{
+                        
+                        .text{
+                            font-size: 14px;
+                            color: #3b4256;
+                        }
+                        .year{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #3b4256;
+                        }
+                    }
+                }
+                .finance{
+                    margin-bottom: 25px;
+                    display: flex;
+                    
+                    .source{
+                        margin-right: 41px;
+                        .source-had{
+                            font-size: 14px;
+                            color: #3b4256;
+                            white-space: nowrap;
+                        }
+                        .source-sub-had{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #3b4256;
+                            white-space: nowrap;
+                        }
+                    }
+                    .type{
+                        .type-had{
+                            font-size: 14px;
+                            color: #3b4256;
+                            white-space: nowrap;
+                        }
+                        .type-sub-had{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #3b4256;
+                            
+                        }
+                    }
+                }
+                .images{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: self-start;
+                    img{
+                        max-width: 201px;
+                        width: 100%;
+                        background-size: cover;
+                        
+                    }
+                }
+            }
+            .social{
+                display: flex;
+                padding: 33px 10px 31px 31px;
+                background-color: #f4f7fb;
+                margin: 47px 0 64px;
+                p{
+                    font-size: 16px;
+                    color: #3b4256;
+                    margin-right: 10px;
+                    
+                }
+                a{
+                    display: block;
+                    transition: all ease 400ms;
+                    margin-right: 10px;
+                    &:hover{
+                        transition: all ease 400ms;
+                        opacity: 0.5;
+                    }
+                    &:nth-child(1) {
+                        margin-right: 22px;
+                    }
+                    i {
+                        color: #3b4256;
+                        font-size: 1.45rem;
+                    }
+                }
+            }
+        }
+        .right{
+            .statistic{
+                margin-bottom: 74px;
+                background-color: #fff;
+                padding: 11px 108px 47px 32px;
+                box-shadow: 0 2px 4px 0 rgba(0, 7, 123, 0.04), 0 8px 20px 0 rgba(0, 0, 0, 0.06);
+                .text{
+                    padding: 26px 0 8px 0;
+                    font-family: ProbaPro;
+                    font-size: 14px;
+                    color: #3b4256;   
+                }
+                .counter{
+                    font-family: ProbaPro;
+                    font-size: 32px;
+                    font-weight: 600;
+                    color: #3a4257;    
+                }
+                a{
+                    display: block;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: #f4f7fb;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                    background-color: #0c49cd;
+                    border-radius: 4px;
+                    max-width: 219px;
+                    width: 100%;
+                    text-align: center;
+                    padding: 15px 0;
+                }
+            }
+        
+            .title{
+                font-size: 32px;
+                font-weight: bold;
+                color: #3b4256;
+                margin-bottom: 28px;
+                line-height: 1.25;
+            }
+            .item{
+                max-width: 352px;
+                width: 100%;
+                .time{
+                    font-family: ProbaPro;
+                    font-size: 14px;
+                    color: #97a4b1;
+                    margin-bottom: 8px;
+                }
+                .description{
+                    font-family: ProbaPro;
+                    font-size: 14px;
+                    color: #3a4257;
+                    padding-bottom: 36px;    
+                    margin-bottom: 16px;
+                    border-bottom: 1px solid  #dde1e6;
+                }
+            }
+        }
+    }
+}
