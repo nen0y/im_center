@@ -1,0 +1,14 @@
+
+@media(max-width: 767px) {
+    .registration_block .entity .line{
+        flex-direction: column;
+
+    }
+    .registration_block .entity .line input:first-child{
+        max-width: inherit;
+        margin-right: 0;
+    }
+    .registration_block .entity .link-gov{
+        width: 100%;
+    }
+}

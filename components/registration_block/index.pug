@@ -1,0 +1,46 @@
+section.registration_block
+    .container
+        .bread_crumbs_block
+            a(href="#") Головна
+            a(href="#") Реєстрація
+        p.header Реєстрація
+        .entity
+            form(method='')
+                label(for="secondname")
+                    input(id="secondname" placeholder="Прізвище").required
+                .line
+                    label(for="name")
+                        input(id="name" placeholder="Iм'я").required
+                    label(for="father")
+                        input(id="father" placeholder="По-батькові").required
+                label(for="address")
+                    input(id="address" placeholder="Адреса").required
+                .line
+                    label(for="pass")
+                        input(id="pass" name="pas" type="password" placeholder="Пароль").required
+                    label(for="date")
+                        input(id="date" placeholder="Дата народження __ /__ / _____").required
+                .line
+                    label(for="conf")
+                        input(id="conf" name="conf" type="password" placeholder="Пароль ще раз").required
+                    label(for="post")
+                        input(id="post" placeholder="Пошта").required
+                label(for="1").check
+                    input(type="checkbox" id="1")
+                    p Я погоджуюсь зі зберіганням та обробкою персональних даних згідно Закону України «<a href="#">Про захист персональних даних</a>»
+                p.text Підтверджую, що не розміщувати інформацію з обмеженим доступом та будь-яку іншу інформацію або дані крім публічних
+                p.text Я ознайомлений(на) <a href="#">з правилами модерації</a>
+                p.text Я ознайомлений(на) <a href="#">з регламентом обробки інформації</a>
+                button(type="submit") Зареєструватися
+                p.text(style="text-align:center;margin-bottom:40px;") Або увійдіть за допомогою:
+                .line
+                    a(href="#").link-gov
+                        p За допомогою
+                        img(src="assets/img/content/facebook-logo.png" srcset="assets/img/content/img/facebook-logo@2x.jpg 2x,assets/img/content/facebook-logo@3x.jpg 3x" )
+
+                    a(href="#").link-gov
+                        p За допомогою
+                        img(src="assets/img/content/bank-id-logo.png" srcset="assets/img/content/img/bank-id-logo@2x.jpg 2x,assets/img/content/bank-id-logo@3x.jpg 3x")
+
+
+                a(href="#").link Є аккаунт? Увійдіть

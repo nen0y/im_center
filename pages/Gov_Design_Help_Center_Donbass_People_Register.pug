@@ -1,0 +1,9 @@
+extends _parent_template
+block head
+    +head(head.home)
+block content
+    +header()
+    include ../components/registration_block/index
+
+block script
+    script(src="assets/js/validation.js")
